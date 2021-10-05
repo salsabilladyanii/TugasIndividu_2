@@ -1,0 +1,55 @@
+ <!--Nama   : Salsabilla Putri Dyani-->
+<!--NIM    : 119140065-->
+<!--Kelas  : Pemrograman Web RC-->
+
+<!DOCTYPE html>
+<html>
+    <header
+        <meta charset="UTF-8">
+        <title>"Pendaftaran UKM ITMI"</title>
+        <link rel ="stylesheet" type="text/css" href="aset.css">
+    </header>
+
+    <body style="background-color: lightsalmon;">
+        <form action="GETData.php" method="GET"> 
+        <div class="container">
+            <div class="mainContent">
+                <div class="input">
+                    <div class="submit">
+            <h2>Form UKM Ikatan Taekwondo Mahasiswa ITERA </h2> 
+            
+            <table class="table">
+               <td><label>Nama Lengkap : </label></td>
+                <td><input type="text" name="nama_pendaftar"></td>
+            <br>
+            <tr>
+                <td><label>NIM : </label></td>
+                <td><input type="number" name="NIM"></td>
+            </tr>
+            <tr>
+                <td><label>Program Studi : </label></td>
+                <td><input type="text" name="program_studi"></td>
+            </tr> 
+            <tr>
+                <td><label>Jenis Kelamin :</label></td>
+                <td><input type="radio" name="jenis_kelamin" value="laki-laki">Laki-Laki</td>
+                <td><input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</td>
+            </tr>
+            <tr>
+                <td><label> No Hp : </label> </td>
+                <td><input type="number" name="no_hp"></td>
+            </tr>
+            <tr>
+                <td><label>Capaian Tingkat Sabuk : </label></td>
+                <td><input type="text" name="Sabuk"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" value="Kirim"></td>
+            </tr>
+        </div>
+            </div>
+                </div>
+                    </div>
+        </form>
+    </body>
+</html>
